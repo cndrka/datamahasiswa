@@ -1,0 +1,45 @@
+header.main-header
+    a(href='/').logo
+        span.logo-mini
+            <b>A</b> LTE
+        span.logo-lg
+            <b>Admin</b>
+    nav(role='navigation').navbar.navbar-static-top
+        a(href='#', role='button', data-toggle='offcanvas').sidebar-toggle.fa6.sidebar-mini
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+        div.navbar-custom-menu
+            ul.nav.navbar-nav
+                
+                    li.dropdown.user.user-menu
+                        a(href='#',data-toggle='dropdown').dropdown-toggle
+                            img(src='/adminlte/dist/img/user8-128x128.jpg',alt='UserImage').user-image
+                            span.hidden-xs
+                                | Candrika Bagus D
+                        ul.dropdown-menu
+                            li.user-header
+                                img(src='/adminlte/dist/img/user8-128x128.jpg',alt='UserImage').img-circle
+                                p
+                                    | Candrika Bagus D - Web Dev
+                                    small
+                                        | Member since Nov. 2012
+                            li.user-body
+                                .row
+                                    .col-xs-4.text-center
+                                        a(href='#')
+                                            | Followers
+                                    .col-xs-4.text-center
+                                        a(href='#')
+                                            | Sales
+                                    .col-xs-4.text-center
+                                        a(href='#')
+                                            | Friends
+                            li.user-footer
+                                .pull-left
+                                    a(href='#').btn.btn-default.btn-flat
+                                        | Profile
+                                .pull-right
+                                    a(href='/logout').btn.btn-default.btn-flat
+                                        | Sign out
